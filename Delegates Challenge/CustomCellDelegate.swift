@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol CustomCellDelegate: class {
+    func DescriptionButtonPressed(sender: CustomCell)
+    func AddButtonPressed(sender: CustomCell)
+}

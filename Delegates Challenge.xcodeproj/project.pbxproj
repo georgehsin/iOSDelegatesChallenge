@@ -14,6 +14,13 @@
 		0F5D5C6A1DD53158005E37C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5D5C681DD53158005E37C8 /* LaunchScreen.storyboard */; };
 		0F5D5C751DD53158005E37C8 /* Delegates_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D5C741DD53158005E37C8 /* Delegates_ChallengeTests.swift */; };
 		0F5D5C801DD53158005E37C8 /* Delegates_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D5C7F1DD53158005E37C8 /* Delegates_ChallengeUITests.swift */; };
+		0F5D5C8E1DD539B1005E37C8 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D5C8D1DD539B1005E37C8 /* UpdateViewController.swift */; };
+		0F5D5C901DD539C4005E37C8 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D5C8F1DD539C4005E37C8 /* AddViewController.swift */; };
+		0F5D5C921DD53FF7005E37C8 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D5C911DD53FF7005E37C8 /* CustomCell.swift */; };
+		0F5D5C941DD543BB005E37C8 /* CustomCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D5C931DD543BB005E37C8 /* CustomCellDelegate.swift */; };
+		0F5D5C961DD546A4005E37C8 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D5C951DD546A4005E37C8 /* CancelButtonDelegate.swift */; };
+		0F5D5C9A1DD581A6005E37C8 /* DoneButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D5C991DD581A6005E37C8 /* DoneButtonDelegate.swift */; };
+		A6ED94CF1DD65BF600C32687 /* UpdateInfoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ED94CE1DD65BF600C32687 /* UpdateInfoDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		0F5D5C7B1DD53158005E37C8 /* Delegates ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delegates ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F5D5C7F1DD53158005E37C8 /* Delegates_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegates_ChallengeUITests.swift; sourceTree = "<group>"; };
 		0F5D5C811DD53158005E37C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F5D5C8D1DD539B1005E37C8 /* UpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		0F5D5C8F1DD539C4005E37C8 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		0F5D5C911DD53FF7005E37C8 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		0F5D5C931DD543BB005E37C8 /* CustomCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellDelegate.swift; sourceTree = "<group>"; };
+		0F5D5C951DD546A4005E37C8 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		0F5D5C991DD581A6005E37C8 /* DoneButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoneButtonDelegate.swift; sourceTree = "<group>"; };
+		A6ED94CE1DD65BF600C32687 /* UpdateInfoDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateInfoDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +117,13 @@
 				0F5D5C661DD53158005E37C8 /* Assets.xcassets */,
 				0F5D5C681DD53158005E37C8 /* LaunchScreen.storyboard */,
 				0F5D5C6B1DD53158005E37C8 /* Info.plist */,
+				0F5D5C8D1DD539B1005E37C8 /* UpdateViewController.swift */,
+				A6ED94CE1DD65BF600C32687 /* UpdateInfoDelegate.swift */,
+				0F5D5C8F1DD539C4005E37C8 /* AddViewController.swift */,
+				0F5D5C911DD53FF7005E37C8 /* CustomCell.swift */,
+				0F5D5C931DD543BB005E37C8 /* CustomCellDelegate.swift */,
+				0F5D5C991DD581A6005E37C8 /* DoneButtonDelegate.swift */,
+				0F5D5C951DD546A4005E37C8 /* CancelButtonDelegate.swift */,
 			);
 			path = "Delegates Challenge";
 			sourceTree = "<group>";
@@ -193,6 +214,7 @@
 				TargetAttributes = {
 					0F5D5C5B1DD53158005E37C8 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = V5QT43U7K7;
 						ProvisioningStyle = Automatic;
 					};
 					0F5D5C6F1DD53158005E37C8 = {
@@ -259,8 +281,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5D5C9A1DD581A6005E37C8 /* DoneButtonDelegate.swift in Sources */,
 				0F5D5C621DD53158005E37C8 /* ViewController.swift in Sources */,
+				A6ED94CF1DD65BF600C32687 /* UpdateInfoDelegate.swift in Sources */,
+				0F5D5C941DD543BB005E37C8 /* CustomCellDelegate.swift in Sources */,
 				0F5D5C601DD53158005E37C8 /* AppDelegate.swift in Sources */,
+				0F5D5C921DD53FF7005E37C8 /* CustomCell.swift in Sources */,
+				0F5D5C961DD546A4005E37C8 /* CancelButtonDelegate.swift in Sources */,
+				0F5D5C901DD539C4005E37C8 /* AddViewController.swift in Sources */,
+				0F5D5C8E1DD539B1005E37C8 /* UpdateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,11 +441,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V5QT43U7K7;
 				INFOPLIST_FILE = "Delegates Challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.Delegates-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -424,11 +454,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V5QT43U7K7;
 				INFOPLIST_FILE = "Delegates Challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.Delegates-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -505,6 +536,7 @@
 				0F5D5C861DD53158005E37C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F5D5C871DD53158005E37C8 /* Build configuration list for PBXNativeTarget "Delegates ChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +545,7 @@
 				0F5D5C891DD53158005E37C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F5D5C8A1DD53158005E37C8 /* Build configuration list for PBXNativeTarget "Delegates ChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +554,7 @@
 				0F5D5C8C1DD53158005E37C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

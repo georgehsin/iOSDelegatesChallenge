@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import UIKit
+
+protocol UpdateInfoDelegate: class {
+    func UpdateInfoWith(pictureName picturename:String?, picturedescription:String?, imagename:String?, atIndexPath indexpath: Int)
+}
+

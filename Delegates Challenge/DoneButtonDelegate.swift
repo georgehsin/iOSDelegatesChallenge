@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol DoneButtonDelegate: class {
+    func DoneButtonPressed(controller: AddViewController, finishedAdding picturename:String?, picturedescription:String?, imagename:String?)
+    func DoneButtonPressed(controller: AddViewController, finishedUpdating picturename:String?, picturedescription:String?, imagename:String?, atIndexPath indexpath: Int)
+}
